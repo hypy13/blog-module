@@ -2,7 +2,7 @@
     "name": "ivi3/blog",
     "type": "laravel-module",
     "description": "",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
         {
@@ -11,10 +11,15 @@
         }
     ],
     "extra": {
-        "laravel": {
-            "providers": [],
-            "aliases": {
-
+        "extra": {
+            "branch-alias": {
+                "dev-master": "dev-master"
+            },
+            "laravel": {
+                "providers": [
+                    "Module\\Blog\\Providers\\BlogServiceProvider"
+                ],
+                "aliases": {}
             }
         }
     },
