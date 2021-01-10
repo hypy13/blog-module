@@ -2,6 +2,8 @@
     "name": "ivi3/blog",
     "type": "laravel-module",
     "description": "",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Milad Parirokh",
