@@ -1,0 +1,24 @@
+{
+    "name": "laramodules/blog",
+    "type": "laravel-modules",
+    "description": "",
+    "authors": [
+        {
+            "name": "Milad Parirokh",
+            "email": "miladparirokh@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    }
+}
