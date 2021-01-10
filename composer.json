@@ -1,6 +1,6 @@
 {
     "name": "laramodules/blog",
-    "type": "laravel-modules",
+    "type": "laravel-module",
     "description": "",
     "authors": [
         {
