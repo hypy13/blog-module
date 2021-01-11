@@ -11,12 +11,8 @@
         }
     ],
     "extra": {
-        "branch-alias": {
-            "dev-master": "dev-master"
-        },
         "laravel": {
             "providers": [
-                "Module\\Blog\\Providers\\BlogServiceProvider"
             ],
             "aliases": {}
         }
