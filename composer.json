@@ -1,5 +1,5 @@
 {
-    "name": "ivi3/blog",
+    "name": "ivi3/blog-module",
     "type": "laravel-module",
     "description": "",
     "minimum-stability": "dev",
